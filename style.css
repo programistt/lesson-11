@@ -1,0 +1,78 @@
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #9E9AA8;
+}
+
+header .left {
+    display: flex;
+    align-items: center;
+}
+
+header .left h4 {}
+
+header .signup {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.link2 {
+    background-color: aqua;
+    border-radius: 18px;
+    color: #9E9AA8;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.intro .container {
+    display: flex;
+}
+
+main .container {
+    width: 1140px;
+    background-color: rgb(61, 33, 13);
+    padding: 10px;
+}
+
+main h2 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-colo: aqua;
+}
+
+main h3 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding:5px;
+}
+
